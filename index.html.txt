@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TajWear – Tajikistan Basic Hoodie</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: #111;
+    }
+
+    header {
+      padding: 20px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+
+    header h1 {
+      font-size: 28px;
+      letter-spacing: 2px;
+    }
+
+    .product {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1000px;
+      margin: 50px auto;
+      gap: 40px;
+      padding: 0 20px;
+    }
+
+    .product img {
+      width: 100%;
+      max-width: 450px;
+      border: 1px solid #eee;
+    }
+
+    .product-info {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .product-info h2 {
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      font-size: 22px;
+      margin: 10px 0;
+    }
+
+    .description {
+      margin: 20px 0;
+      font-size: 16px;
+      color: #444;
+    }
+
+    button {
+      background-color: #111;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background-color: #444;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      border-top: 1px solid #ddd;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>TAJWEAR</h1>
+  </header>
+
+  <section class="product">
+    <img src="https://via.placeholder.com/450x550?text=TAJIKISTAN+HOODIE" alt="Tajikistan Hoodie" />
+    
+    <div class="product-info">
+      <h2>Tajikistan Basic Hoodie</h2>
+      <p class="price">49,99 €</p>
+      <p class="description">
+        Zeige deine Herkunft mit Stil. Unser Tajikistan Basic Hoodie kombiniert minimalistisches Design mit kulturellem Ausdruck. Bequem, hochwertig und mit Stolz getragen.
+      </p>
+      <button>In den Warenkorb</button>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 TajWear. Alle Rechte vorbehalten.
+  </footer>
+
+</body>
+</html>

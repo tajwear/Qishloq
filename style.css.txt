@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #111;
+}
+
+.logo {
+  display: block;
+  width: 200px;
+  margin: 30px auto;
+}
+
+.product {
+  max-width: 1000px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 0 20px;
+}
+
+.info {
+  flex: 1;
+  min-width: 300px;
+}
+
+.price {
+  font-size: 22px;
+  color: #444;
+}
+
+button {
+  background-color: #111;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
